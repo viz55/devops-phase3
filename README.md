@@ -3,3 +3,4 @@
 ## Usage
 Run scripts from the scripts/ directory.
 - healthcheck.sh: probes /health
+- see config/app.conf for settings
