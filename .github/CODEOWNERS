@@ -1,0 +1,6 @@
+# Default owner for everything
+*            @viz55
+
+# Scripts and CI changes need a second pair of eyes
+/scripts/    @i-am-Vishnu
+/.github/    @i-am-Vishnu
