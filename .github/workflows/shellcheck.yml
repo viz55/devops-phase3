@@ -1,0 +1,16 @@
+name: ShellCheck
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  shellcheck:
+    name: shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+      - name: Run ShellCheck
+        run: shellcheck scripts/*.sh
