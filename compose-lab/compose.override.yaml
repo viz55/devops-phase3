@@ -1,0 +1,7 @@
+services:
+  app:
+    command: ["--bind", "0.0.0.0:5000", "--reload", "--log-level", "debug", "app:app"]
+    environment:
+      APP_ENV: development
+    volumes:
+      - ./app:/app:ro
